@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./instagram-img/insta-logo.png" type="image/x-icon">
+    <!--!=========== REMIX-ICON =============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--!=========== BOX-ICON =============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--!=========== UNI-ICON =============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--!=========== BOOTSTRAP-ICON =============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!--!========= CSS =============-->
+    <link rel="stylesheet" href="./Instagram.css">
+    <!--!========= JS =============-->
+    <script src="./Instagram.js" defer></script>
+
+
+    <title>Instagram</title>
+
+</head>
+
+<body>
+
+    <!--!============= NAVBAR =======-->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav__logo">
+                <img src="./instagram-img/insta-word-logo.png" class="logo__img1">
+                <img src="./instagram-img/insta-logo-white.png" class="logo__img2 img-hide">
+                <img src="./instagram-img/insta-logo-b&w.png" class=" insta__logo insta-logo-1">
+                <img src="./instagram-img/insta--white-logo.png" class=" insta__logo insta-logo-2 img-hide">
+
+                <div class="search__bar">
+                    <div class="input__control">
+                        <input type="search" name="" id="">
+                        <i class="ri-search-line search"></i>
+                        <label>Search</label>
+                    </div>
+                    <i class="ri-heart-line"></i>
+                </div>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__link"><a href="#"><i class="bi bi-house-door-fill"></i><span>Home</span></a></li>
+                    <li class="nav__link"><a href="#"><i class="ri-search-line"></i><span>Search</span></a></li>
+                    <li class="nav__link"><a href="#"><i class="ri-compass-3-line"></i><span>Explore</span></a></li>
+                    <li class="nav__link"><a href="#"><i class='bx bx-movie-play'></i><span>Reels</span></a></li>
+                    <li class="nav__link"><a href="#"><i class="ri-messenger-line"></i><span>Messages</span></a></li>
+                    <li class="nav__link"><a href="#"><i class="ri-heart-line"></i><span>Notification</span></a></li>
+                    <li class="nav__link"><a href="#"><i class="bi bi-plus-square"></i><span>Create</span></a></li>
+                    <li class="nav__link"><a href="#"><img src="./instagram-img/my-profile.jpg" alt=""
+                                class="nav__profile-img"> <span>Profile</span></a></li>
+                </ul>
+            </div>
+
+            <div class="more__btn">
+                <i class="ri-menu-line"></i> <span>More</span>
+            </div>
+
+
+            <div class="more__modal">
+                <ul class="more__content">
+                    <li class="more__link">
+                        <div>
+                            <i class="bi bi-gear-wide"></i>
+                            settings
+                        </div>
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </li>
+                    <li class="more__link">
+                        <div>
+                            <i class="bi bi-clock-history"></i>
+                            Your activity
+                        </div>
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </li>
+                    <li class="more__link">
+                        <div>
+                            <i class="ri-bookmark-line"></i>
+                            Saved
+                        </div>
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </li>
+                    <li class="more__link theme-btn">
+                        <div>
+                            <i class="ri-sun-line"></i>
+                            Switch appearance
+                        </div>
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </li>
+                    <li class="more__link">
+                        <div>
+                            <i class="uil uil-exclamation"></i>
+                            Report a problem
+                        </div>
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </li>
+                </ul>
+                <hr class="hr-1">
+                <div class="more__link switch__account">
+                    <div>
+                        Switch accoutns
+                    </div>
+                    <i class="ri-arrow-drop-right-line"></i>
+                </div>
+                <hr class="hr-2">
+                <div class="more__link log__out">
+                    <div>
+                        Log out
+                    </div>
+                </div>
+
+                <div class="arrow-box"></div>
+            </div>
+
+
+            <div class="dark__modal">
+                <div class="more__link">
+                    <div>
+                        <i class="ri-arrow-drop-left-line"></i>
+                        Switch appearance
+                    </div>
+                    <i class="ri-sun-line"></i>
+                </div>
+                <hr class="hr-2">
+
+                <div class="dark__button">
+                    Dark mode
+                    <div class="button">
+                        <div class="circle left"></div>
+                    </div>
+                </div>
+
+                <div class="arrow-box"></div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__container">
+            <div class="story__container">
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/men/0.jpg" alt="">
+                    </div>
+                    <div class="name">iam.daniel</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="">
+                    </div>
+                    <div class="name">lina.harley</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+                    </div>
+                    <div class="name">max_tern</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="">
+                    </div>
+                    <div class="name">adolf.hitler</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="">
+                    </div>
+                    <div class="name">rg.tagore</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="">
+                    </div>
+                    <div class="name">blackwidow</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="">
+                    </div>
+                    <div class="name">iam.chris</div>
+                </div>
+                <div class="story__item ">
+                    <div class="story__img">
+                        <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="">
+                    </div>
+                    <div class="name">mary.jane</div>
+                </div>
+            </div>
+            <div class="main__content">
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo border">
+                                <img src="./instagram-img/hopeui.img" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>hopeui.io</h5>
+                                    <div class="dot"></div>
+                                    <p>4h</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/video-1.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>356</span> likes</div>
+                    <div class="caption">
+                        <span class="name">hopeui.io</span>
+                        ✨ Checkout form | HTML & CSS Grab the completed source code from GitHub...
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 25 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo border">
+                                <img src="./instagram-img/marvel-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>marvelstudios</h5>
+                                    <div class="dot"></div>
+                                    <p>7h</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/gotg3.video.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>229,314</span> likes</div>
+                    <div class="caption">
+                        <span class="name">marvelstudios</span>
+                        This Friday, we are Groot. <br>
+                        Experience Guardians of the Galaxy Vol. 3 in theaters.
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 176 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo border">
+                                <img src="./instagram-img/marvel-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>marvelstudios</h5>
+                                    <div class="dot"></div>
+                                    <p>7h</p>
+                                </div>
+                                <div class="extra"></div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content">
+                        <img src="./instagram-img/gotg3-img.jpg" alt="">
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"><span>356,245</span> likes</div>
+                    <div class="caption">
+                        <span class="name">marvelstudios</span>
+                        "We'll all fly away together, one last time..."...
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 233 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/ronaldo-logo1.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>ig_deep.edits</h5>
+                                    <div class="dot"></div>
+                                    <p>7w</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/ronaldo-video1.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"><span>482,314</span> likes</div>
+                    <div class="caption">
+                        <span class="name">ig_deep.edits</span>
+                        I am better 0️⃣7️⃣
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 1176 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/arif-img.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>arifshaikh.99</h5>
+                                    <div class="dot"></div>
+                                    <p>4w</p>
+                                </div>
+                                <div class="extra">Eden Gardens, Kolkata</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content photo">
+                        <img src="./instagram-img/arif-photo.jpg" alt="">
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>92</span> likes</div>
+                    <div class="caption">
+                        <span class="name">arifshaikh</span>
+                        💜
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 28 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/aitf-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>thepositivewordsss</h5>
+                                    <div class="dot"></div>
+                                    <p>2w</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/atif-video.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"><span>40,624</span> likes</div>
+                    <div class="caption">
+                        <span class="name">thepositivewordsss</span>
+                        Atif Aslam 🐐👑
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 1176 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/weather-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>reveal_universe</h5>
+                                    <div class="dot"></div>
+                                    <p>1w</p>
+                                </div>
+                                <div class="extra"></div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content photo">
+                        <img src="./instagram-img/weather-photo.jpg" alt="">
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes">2 <span>1,234,63</span> likes</div>
+                    <div class="caption">
+                        <span class="name">reveal_universe</span>
+                        Anyone else?...
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 3378 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo border">
+                                <img src="./instagram-img/nasdaily-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>nasdaily</h5>
+                                    <div class="dot"></div>
+                                    <p>8h</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/nasdaily-video.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>40,356</span> likes</div>
+                    <div class="caption">
+                        <span class="name">nasdaily</span>
+                        You can’t die on this island in Norway. And the reason for it is quite interesting....
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 225 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/cat-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>catlovers.xd</h5>
+                                    <div class="dot"></div>
+                                    <p>1w</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/cat-video.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>1,158,43</span> likes</div>
+                    <div class="caption">
+                        <span class="name">catlovers.xd</span>
+                        👀👀
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 252 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo border">
+                                <img src="./instagram-img/photofactory-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>the_phtotfactory69</h5>
+                                    <div class="dot"></div>
+                                    <p>16h</p>
+                                </div>
+                                <div class="extra"></div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content photo">
+                        <img src="./instagram-img/photofactory-photo.jpg" alt="">
+
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>63</span> likes</div>
+                    <div class="caption">
+                        <span class="name">reveal_universe</span>
+                        Garden Cosmos 💮
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 12 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/messi.logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>football_fan_44</h5>
+                                    <div class="dot"></div>
+                                    <p>8w</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/messi-video.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>725,356</span> likes</div>
+                    <div class="caption">
+                        <span class="name">football_fan_44</span>
+                        Messi👽🦾
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 2257 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/wednesday-logo.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>desihomie12</h5>
+                                    <div class="dot"></div>
+                                    <p>3w</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/wednesday-video.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>169,356</span> likes</div>
+                    <div class="caption">
+                        <span class="name">desihomie12</span>
+                        Sigma Death stare 💀
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 857 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+
+                <div class="item  ">
+                    <div class="item__header">
+                        <div class="item__info">
+                            <div class="item__logo">
+                                <img src="./instagram-img/ronaldo-logo1.jpg" alt="">
+                            </div>
+                            <div class="data">
+                                <div class="name">
+                                    <h5>ig_deep.edits</h5>
+                                    <div class="dot"></div>
+                                    <p>13w</p>
+                                </div>
+                                <div class="extra">Origianl audio</div>
+                            </div>
+                        </div>
+                        <div class="more__icon">
+                            <i class="ri-more-fill"></i>
+                        </div>
+                    </div>
+                    <div class="item__content video__box">
+                        <video src="./instagram-img/ronaldo-video2.mp4" class="video" type=video/mp4 loop></video>
+
+                        <div class="pause__logo display-none">
+                            <i class="bi bi-play-fill"></i>
+                        </div>
+                        <div class="tag__logo">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <div class="volume__btn mute">
+                            <i class='bx bxs-volume-mute'></i>
+                        </div>
+                    </div>
+                    <div class="item__icons">
+                        <div class="main__icons">
+                            <i class="bi bi-heart like"></i>
+                            <i class="bi bi-chat"></i>
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="save__icon">
+                            <i class="bi bi-bookmark save"></i>
+                        </div>
+                    </div>
+
+                    <div class="likes"> <span>1,869,356</span> likes</div>
+                    <div class="caption">
+                        <span class="name">ig_deep.edits</span>
+                        I Just love the smell of fear 😈
+                        <div class="more">more</div>
+                    </div>
+                    <div class="comment">View all 5915 comment</div>
+                    <div class="comment__box">
+                        <input type="text" placeholder="Add a comment...">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="suggestion__container">
+            <div class="profile">
+                <div class="profile__info">
+                    <div class="profile__img">
+                        <img src="./instagram-img/my-profile.jpg" alt="">
+                    </div>
+
+                    <div class="data">
+                        <div class="name">iam.samimaktar</div>
+                        <div class="username">Şamìm Âktâr ♠️</div>
+                    </div>
+                </div>
+                <div class="btn">Switch</div>
+            </div>
+
+            <div class="suggestion__content">
+                <div class="heading">
+                    <h5>Sugested for you</h5>
+                    <p>See All</p>
+                </div>
+                <div class="suggestion__item">
+                    <div class="profile__info">
+                        <div class="profile__img">
+                            <img src="https://randomuser.me/api/portraits/men/13.jpg" alt="">
+                        </div>
+
+                        <div class="data">
+                            <div class="name">versatile_mm</div>
+                            <div class="suggestion">Followed by sk_masud,arifshaikh...</div>
+                        </div>
+                    </div>
+                    <div class="btn">Follow</div>
+                </div>
+                <div class="suggestion__item">
+                    <div class="profile__info">
+                        <div class="profile__img">
+                            <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="">
+                        </div>
+
+                        <div class="data">
+                            <div class="name">sophiaclara</div>
+                            <div class="suggestion">Followed by iam.daniel,rahul.king...</div>
+                        </div>
+                    </div>
+                    <div class="btn">Follow</div>
+                </div>
+                <div class="suggestion__item">
+                    <div class="profile__info">
+                        <div class="profile__img">
+                            <img src="https://randomuser.me/api/portraits/women/66.jpg" alt="">
+                        </div>
+
+                        <div class="data">
+                            <div class="name">queen_lg</div>
+                            <div class="suggestion">Followed by photfactory.99,danielcarl...</div>
+                        </div>
+                    </div>
+                    <div class="btn">Follow</div>
+                </div>
+                <div class="suggestion__item">
+                    <div class="profile__info">
+                        <div class="profile__img">
+                            <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="">
+                        </div>
+
+                        <div class="data">
+                            <div class="name">rocking.rahul</div>
+                            <div class="suggestion">Follows you</div>
+                        </div>
+                    </div>
+                    <div class="btn">Follow</div>
+                </div>
+                <div class="suggestion__item">
+                    <div class="profile__info">
+                        <div class="profile__img">
+                            <img src="https://randomuser.me/api/portraits/women/69.jpg" alt="">
+                        </div>
+
+                        <div class="data">
+                            <div class="name">sassyblicth_</div>
+                            <div class="suggestion">Suggested for you</div>
+                        </div>
+                    </div>
+                    <div class="btn">Follow</div>
+                </div>
+            </div>
+
+            <div class="links__box">
+                <p>About</p>
+                <div class="dot"></div>
+                <p>Help</p>
+                <div class="dot"></div>
+                <p>Press</p>
+                <div class="dot"></div>
+                <p>API</p>
+                <div class="dot"></div>
+                <p>Jobs</p>
+                <div class="dot"></div>
+                <p>Privacy</p>
+                <div class="dot"></div>
+                <p>Terms</p>
+                <div class="dot"></div>
+                <p>Locations</p>
+                <div class="dot"></div>
+                <p>Language</p>
+                <div class="dot"></div>
+                <p>Meta Verifies</p>
+            </div>
+
+            <div class="copy">© 2023 INSTAGRAM FROM META</div>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>
